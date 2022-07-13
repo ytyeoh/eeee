@@ -1,0 +1,8 @@
+.delete, .delete a{
+  background: red;
+  color: white;
+}
+.card-header{
+  /*padding:  0;*/
+  margin: 0.75rem;
+}
