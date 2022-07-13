@@ -4,6 +4,7 @@
 <!------ Include the above in your HEAD tag ---------->
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"></link>
+
 <div id="accordion" role="tablist">
   <div class="card">
     <div class="card-header" role="tab" id="headingOne">
@@ -12,12 +13,12 @@
           Collapsible Group Item #1
         </a>
       </h5>
-</div>
-<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-      <div class="card-body">
-         ...............................................................................#1
-      </div>
-</div>
+	</div>
+	<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+	      <div class="card-body">
+	         ...............................................................................#1
+	      </div>
+	</div>
 </div>
 <div class="card">
     <div class="card-header" role="tab" id="headingTwo">
@@ -33,18 +34,19 @@
       </div>
 </div>
 </div>
-<div class="card">
-    <div class="card-header" role="tab" id="headingThree">
-      <h5 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
-        </a>
-      </h5>
+	<div class="card">
+	    <div class="card-header" role="tab" id="headingThree">
+	      <h5 class="mb-0">
+	        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	          Collapsible Group Item #3
+	        </a>
+	      </h5>
+		</div>
+		<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+	      <div class="card-body">
+	       ...............................................................................#3
+	      </div>
+		</div>
+	</div>
 </div>
-<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
-      <div class="card-body">
-       ...............................................................................#3
-      </div>
-</div>
-</div>
-</div>
+<script src="/custom.js"></script>
