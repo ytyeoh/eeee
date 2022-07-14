@@ -1,3 +1,9 @@
+body{
+  background-color: #013f62;
+}
+h1{
+  color:  white;
+}
 .delete, .delete a{
   background: red;
   color: white;
@@ -24,7 +30,7 @@
     box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
 }
 .panel-success>.panel-heading {
-    color:#3c763d;background-color:#dff0d8;border-color:#d6e9c6;
+    color:white;background-color:#782634;border-color:#882c3b;
 }
 .panel-default>.panel-heading {
     color: #333;
@@ -41,7 +47,7 @@
     padding: 15px;
 }
 .panel-success>.panel-heading>a{
-  color: #3c763d;
+  color: #fff;
 }
 a{
   color: black;
